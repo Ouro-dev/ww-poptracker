@@ -460,7 +460,7 @@
                         "item_count": 1,
                         "chest_unopened_img": "images/items/chest_metal.png",
                         "chest_opened_img": "images/items/chest_metal_gray.png",
-                        "access_rules": ["$can_change_wind,$can_magicarrow,$can_fly","$can_magicarrow,hookshot"],
+                        "access_rules": ["$can_change_wind,$can_magicarrow,$can_fly","$can_change_wind,$can_magicarrow,hookshot"],
                         "visibility_rules": ["shortsq_on"]
                     },
 		            {
