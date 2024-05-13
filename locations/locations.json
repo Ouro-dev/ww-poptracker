@@ -1437,7 +1437,7 @@
                         "item_count": 1,
                         "chest_unopened_img": "images/items/chest_spiky.png",
                         "chest_opened_img": "images/items/chest_spiky_gray.png",
-                        "access_rules": ["hookshot","$can_fly"],
+                        "access_rules": ["hookshot","$can_fly,$can_change_wind"],
                         "visibility_rules": ["islandpuzzles_on"]
                     },
                     {
