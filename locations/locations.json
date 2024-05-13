@@ -879,7 +879,7 @@
 		            {
                         "name": "Bird-Man Contest - First Prize",
                         "item_count": 1,
-                        "access_rules": ["leaf,magic_2"],
+                        "access_rules": ["leaf,magic_2,$can_change_wind"],
                         "visibility_rules": ["minigames_on"]
                     },
                     {
