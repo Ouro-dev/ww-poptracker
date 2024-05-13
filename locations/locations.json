@@ -1703,7 +1703,7 @@
                         "item_count": 1,
                         "chest_unopened_img": "images/items/chest_metal.png",
                         "chest_opened_img": "images/items/chest_metal_gray.png",
-                        "access_rules": ["$can_fly,$can_change_wind"],
+                        "access_rules": ["$can_fly,$can_change_wind,$can_cut_grass","$can_fly,$can_change_wind,magic_2"],
                         "visibility_rules": ["islandpuzzles_on"]
                     }
                 ],
