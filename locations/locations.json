@@ -2261,8 +2261,8 @@
                         "chest_unopened_img": "images/items/chest_metal.png",
                         "chest_opened_img": "images/items/chest_metal_gray.png",
                         "access_rules": ["hookshot,sword","hookshot,boomerang","hookshot,bow",
-                        "hookshot,bombs","hookshot,hammer","$can_fly,bow","$can_fly,boomerang,sword",
-                        "$can_fly,boomerang,bombs","$can_fly,boomerang,hammer"],
+                        "hookshot,bombs","hookshot,hammer","$can_fly,$can_change_wind,bow","$can_fly,$can_change_wind,boomerang,sword",
+                        "$can_fly,$can_change_wind,boomerang,bombs","$can_fly,$can_change_wind,boomerang,hammer"],
                         "visibility_rules": ["puzzlecaves_on","combat_on"]
                     }
                 ],
