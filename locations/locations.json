@@ -460,7 +460,7 @@
                         "item_count": 1,
                         "chest_unopened_img": "images/items/chest_metal.png",
                         "chest_opened_img": "images/items/chest_metal_gray.png",
-                        "access_rules": ["$can_change_wind,$can_magicarrow,$can_fly","$can_magicarrow,hookshot"],
+                        "access_rules": ["$can_change_wind,$can_magicarrow,$can_fly","$can_change_wind,$can_magicarrow,hookshot"],
                         "visibility_rules": ["shortsq_on"]
                     },
 		            {
@@ -879,7 +879,7 @@
 		            {
                         "name": "Bird-Man Contest - First Prize",
                         "item_count": 1,
-                        "access_rules": ["leaf,magic_2"],
+                        "access_rules": ["leaf,magic_2,$can_change_wind"],
                         "visibility_rules": ["minigames_on"]
                     },
                     {
@@ -1437,7 +1437,7 @@
                         "item_count": 1,
                         "chest_unopened_img": "images/items/chest_spiky.png",
                         "chest_opened_img": "images/items/chest_spiky_gray.png",
-                        "access_rules": ["hookshot","$can_fly"],
+                        "access_rules": ["hookshot","$can_fly,$can_change_wind"],
                         "visibility_rules": ["islandpuzzles_on"]
                     },
                     {
@@ -1703,7 +1703,7 @@
                         "item_count": 1,
                         "chest_unopened_img": "images/items/chest_metal.png",
                         "chest_opened_img": "images/items/chest_metal_gray.png",
-                        "access_rules": ["$can_fly,$can_change_wind"],
+                        "access_rules": ["$can_fly,$can_change_wind,$can_cut_grass","$can_fly,$can_change_wind,magic_2"],
                         "visibility_rules": ["islandpuzzles_on"]
                     }
                 ],
@@ -1884,7 +1884,7 @@
                         "item_count": 1,
                         "chest_unopened_img": "images/items/chest_metal.png",
                         "chest_opened_img": "images/items/chest_metal_gray.png",
-                        "access_rules": ["leaf,hookshot","$can_fly"],
+                        "access_rules": ["leaf,hookshot","$can_fly,$can_change_wind"],
                         "visibility_rules": ["islandpuzzles_on"]
                     },
                     {
@@ -2261,8 +2261,8 @@
                         "chest_unopened_img": "images/items/chest_metal.png",
                         "chest_opened_img": "images/items/chest_metal_gray.png",
                         "access_rules": ["hookshot,sword","hookshot,boomerang","hookshot,bow",
-                        "hookshot,bombs","hookshot,hammer","$can_fly,bow","$can_fly,boomerang,sword",
-                        "$can_fly,boomerang,bombs","$can_fly,boomerang,hammer"],
+                        "hookshot,bombs","hookshot,hammer","$can_fly,$can_change_wind,bow","$can_fly,$can_change_wind,boomerang,sword",
+                        "$can_fly,$can_change_wind,boomerang,bombs","$can_fly,$can_change_wind,boomerang,hammer"],
                         "visibility_rules": ["puzzlecaves_on","combat_on"]
                     }
                 ],
